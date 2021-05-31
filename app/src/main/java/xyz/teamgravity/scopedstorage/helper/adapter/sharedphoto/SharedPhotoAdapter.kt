@@ -26,11 +26,11 @@ class SharedPhotoAdapter(
             }
         }
 
-        fun bind(photo: SharedPhotoModel) {
+        fun bind(model: SharedPhotoModel) {
             binding.apply {
-                imageI.setImageURI(photo.contentUri)
+                imageI.setImageURI(model.contentUri)
 
-                val aspectRatio = photo.width.toFloat() / photo.height.toFloat()
+                val aspectRatio = model.width.toFloat() / model.height.toFloat()
                 ConstraintSet().apply {
                     clone(root)
                     setDimensionRatio(imageI.id, aspectRatio.toString())
