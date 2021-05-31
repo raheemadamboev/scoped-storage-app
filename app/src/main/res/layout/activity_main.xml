@@ -13,7 +13,7 @@
         android:layout_marginHorizontal="8dp"
         android:layout_marginTop="8dp"
         android:fillViewport="true"
-        app:layout_constraintBottom_toTopOf="@+id/switchPrivate"
+        app:layout_constraintBottom_toTopOf="@+id/private_switch"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -68,7 +68,7 @@
     </androidx.core.widget.NestedScrollView>
 
     <com.google.android.material.switchmaterial.SwitchMaterial
-        android:id="@+id/switchPrivate"
+        android:id="@+id/private_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/private_"
@@ -83,11 +83,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/app_name"
-        app:layout_constraintBottom_toBottomOf="@+id/switchPrivate"
-        app:layout_constraintEnd_toStartOf="@+id/switchPrivate"
+        app:layout_constraintBottom_toBottomOf="@+id/private_switch"
+        app:layout_constraintEnd_toStartOf="@+id/private_switch"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/switchPrivate"
+        app:layout_constraintTop_toTopOf="@+id/private_switch"
         app:srcCompat="@drawable/ic_camera" />
 </androidx.constraintlayout.widget.ConstraintLayout>
