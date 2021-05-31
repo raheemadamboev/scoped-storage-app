@@ -1,4 +1,4 @@
-package xyz.teamgravity.scopedstorage
+package xyz.teamgravity.scopedstorage.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

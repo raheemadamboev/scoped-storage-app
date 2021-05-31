@@ -1,4 +1,4 @@
-package xyz.teamgravity.scopedstorage
+package xyz.teamgravity.scopedstorage.model
 
 import android.graphics.Bitmap
 
